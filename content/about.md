@@ -1,6 +1,7 @@
 ---
-date: "2016-05-05T21:48:51-07:00"
+date: "2023-09-16"
 title: About
 ---
 
-This is a "hello world" example website for the [**blogdown**](https://github.com/rstudio/blogdown) package. The theme was forked from [@jrutheiser/hugo-lithium-theme](https://github.com/jrutheiser/hugo-lithium-theme) and modified by [Yihui Xie](https://github.com/yihui/hugo-lithium).
+"Data Wow" purports to be an engaging and insightful blog at the crossroads of data science, statistics, and technology. Authored by a passionate university professor with expertise in biostatistics, data science, psychometrics, and engineering, this blog delves deep into the world of data analytics and machine learning. Through a blend of casual and formal discourse, it offers a unique perspective on harnessing the power of data to uncover fascinating insights, solve real-world problems, and advocate for equal opportunity and fairness in higher education—a fun-read for data enthusiasts and advocates of data-driven decision-making.
+

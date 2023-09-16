@@ -8,6 +8,7 @@ ignoreFiles:
   - \.Rmd$
   - \.Rmarkdown$
   - _cache$
+  - \.qmd$
 permalinks:
   post: /:year/:month/:day/:slug/
 menu:
@@ -15,9 +16,11 @@ menu:
     - name: About
       url: /about/
     - name: GitHub
-      url: https://github.com/rstudio/blogdown
+      url: https://github.com/QuantPsych
     - name: Twitter
-      url: https://twitter.com/rstudio
+      url: https://twitter.com/dr_tofighi
+    - name: Terms
+      url: /terms/
 params:
   MathJaxCDN: //cdnjs.cloudflare.com/ajax/libs
   MathJaxVersion: 2.7.5
