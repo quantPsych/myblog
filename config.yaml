@@ -1,4 +1,4 @@
-baseurl: "data-wow.netlify.app"
+baseurl: "https://data-wow.netlify.app"
 languageCode: en-US
 title: Data Wow
 theme: hugo-lithium
