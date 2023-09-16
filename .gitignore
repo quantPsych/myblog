@@ -6,28 +6,16 @@
 .Ruserdata
 # Hugo static assets
 /public/
-
+# netlify
+/resources/
 # Hugo cache files
 .hugo_build.lock
-
 # R package libraries
 */library
-
 # Compiled source packages
 *.tar.gz
-
-# Shiny state 
+# Shiny state
 .shinystate/
-
-# R Markdown files
-*.Rmd
-*.md
-*.html
-*.ipynb
-*.tex
-*.pdf
-*.docx
-
 # OS generated files
 .DS_Store
 .DS_Store?
