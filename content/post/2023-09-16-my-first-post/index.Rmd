@@ -1,5 +1,5 @@
 ---
-title: Understanding Dummy Coding vs. Effects Coding in the General Linear Model
+title: "Dummy Coding vs. Effects Coding"
 author: "Davood Tofighi"
 date: '2023-09-16'
 slug: my-first-post
@@ -17,11 +17,7 @@ image:
 projects: []
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(collapse = TRUE)
-```
-
-# Going Beyond the Basics: Understanding Dummy Coding vs. Effects Coding in the General Linear Model
+# Understanding Dummy Coding vs. Effects Coding in the General Linear Model
 
 Hey there, fellow data enthusiasts! Today, I want to dive into the fascinating world of statistical modeling and explore the differences between two popular coding methods: dummy coding and effects coding in the general linear model (GLM). If you've ever wondered how to effectively represent categorical variables in your models, this blog post is for you!
 

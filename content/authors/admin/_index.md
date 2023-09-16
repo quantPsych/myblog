@@ -43,9 +43,6 @@ social:
 status:
   icon: ☕️
 superuser: true
-title: Davood Tofighi
+title: Professor
 ---
-
-Davood Tofighi is a biostatistician and an Associate Professor of Psychology at the University of New Mexico. His research focuses on developing and evaluating statistical methodologies that enhance the robustness of statistical inferences in various analytic domains. He is particularly interested in causal inference, application, and development of direct acyclic graph (DAG) in causal mediation analysis, statistical and Monte Carlo sensitivity analysis, generalized linear mixed-effects model, multivariate statistics, categorical data analysis, and the judicious application of machine learning techniques to health data.
-
-{style="text-align: justify;"}
+Davood Tofighi is a biostatistician and an Associate Professor of Psychology at the University of New Mexico. His research focuses on developing and evaluating statistical methodologies that enhance the robustness of statistical inferences in various analytic domains. He is particularly interested in causal inference, application, and development of direct acyclic graph (DAG) in causal mediation analysis, statistical and Monte Carlo sensitivity analysis, generalized linear mixed-effects model, multivariate statistics, categorical data analysis, and the judicious application of machine learning techniques to health data .{style="text-align: justify;"}

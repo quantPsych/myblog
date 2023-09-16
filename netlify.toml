@@ -1,7 +1,7 @@
-baseURL = "https://www.myblog.com/"
+baseURL = "https://data-wow.netlify.app/"
 languageCode = "en-US"
-title = "Data Wow: Davood's Personal Blog"
-theme = "academic"
+title = "Data Wow: From Data to Discovery"
+theme = "PaperMod"
 
 [build]
 command = 'hugo'
