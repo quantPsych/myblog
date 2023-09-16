@@ -1,0 +1,22 @@
+baseURL = "https://www.myblog.com/"
+languageCode = "en-US"
+title = "Data Wow: Davood's Personal Blog"
+theme = "academic"
+
+[build]
+command = 'hugo'
+publish = 'public'
+
+[build.environment]
+HUGO_VERSION = '0.118.2'
+
+[context]
+[context.branch-deploy]
+command = 'hugo -F -b $DEPLOY_PRIME_URL'
+
+[context.deploy-preview]
+command = 'hugo -F -b $DEPLOY_PRIME_URL'
+
+[context.production]
+[context.production.environment]
+HUGO_ENV = 'production'
