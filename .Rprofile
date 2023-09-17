@@ -3,6 +3,14 @@
 # First, execute the global .Rprofile if it exists. You may configure blogdown
 # options there, too, so they apply to any blogdown projects. Feel free to
 # ignore this part if it sounds too complicated to you.
+# Check if the package is installed
+if (!require("blogdown", character.only = TRUE)) {
+  # If not installed, install the package
+  install.packages("blogdown")
+}
+# After installation, load the package
+library(blogdown)
+
 if (file.exists("~/.Rprofile")) {
   base::sys.source("~/.Rprofile", envir = environment())
 }
@@ -12,14 +20,14 @@ if (file.exists("~/.Rprofile")) {
 # https://bookdown.org/yihui/blogdown/global-options.html
 options(
   # to automatically serve the site on RStudio startup, set this option to TRUE
-  blogdown.serve_site.startup = FALSE,
+  blogdown.serve_site.startup = TRUE,
   # to disable knitting Rmd files on save, set this option to FALSE
   blogdown.knit.on_save = FALSE,
   # build .Rmd to .md; to build to .html (via Pandoc), set this option to 'html'
   blogdown.method = 'markdown',
   blogdown.ext = ".qmd",
-  blogdown.subdir = "post"
-  
+  blogdown.subdir = "posts",
+  blogdown.author = "Davood Tofighi"
 )
 
 # fix Hugo version
