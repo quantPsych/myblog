@@ -1,0 +1,4 @@
+- source: project
+  netlify:
+    - id: b5435e23-9d39-4560-9463-82bcf9c0a3cb
+      url: 'https://playful-brioche-4f940a.netlify.app'
