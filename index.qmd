@@ -1,5 +1,5 @@
 ---
-title: "quart_test"
+title: "Data Wow"
 listing:
   contents: posts
   sort: "date desc"
